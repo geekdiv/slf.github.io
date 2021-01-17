@@ -10028,3 +10028,8 @@ hr.rounded {
   padding: 8em 0;
   z-index: 0;
 }
+
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+  -ms-touch-action: auto;
+      touch-action: auto;
+}
