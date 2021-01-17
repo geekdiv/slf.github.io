@@ -140,12 +140,10 @@
 		$this.addClass('show');
 		var image = $this.find('img').attr('src').replace('.svg','-w.svg');
 		$this.find('img').attr('src',image);
-		console.log('hover Image ::'+image);
 	}, function(){
 		var $this = $(this);
 		var image = $this.find('img').attr('src').replace('-w.svg','.svg');
 		$this.find('img').attr('src',image);
-		console.log('hover out Image ::'+image);
 	});
 
 
