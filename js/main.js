@@ -48,7 +48,9 @@
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:false,
-	    autoplayHoverPause: false,
+		autoplayHoverPause: false,
+		lazyLoad:true,
+		lazyLoadEager:1,
 	    items: 1,
 	    navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 	    responsive:{
@@ -74,6 +76,8 @@
 			nav:false,
 			autoplayHoverPause: false,
 			items: 1,
+			lazyLoad:true,
+			lazyLoadEager:2,
 			navText : ["<span class='ion-md-arrow-back'></span>","<span class='ion-chevron-right'></span>"],
 			responsive:{
 			  0:{
@@ -97,6 +101,8 @@
 			margin: 30,
 			stagePadding: 0,
 			nav: true,
+			lazyLoad:true,	
+			lazyLoadEager:1,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
